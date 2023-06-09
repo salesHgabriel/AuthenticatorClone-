@@ -4,10 +4,56 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="IDs Verificados">
-    <VerticalStackLayout>
+    <VerticalStackLayout Margin="10" Spacing="20">
+
+        <Image
+            Margin="0,50,0,0"
+            Source="authenticator_logo.svg"
+            WidthRequest="50" />
+
         <Label
-            HorizontalOptions="Center"
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" />
+            FontSize="Subtitle"
+            HorizontalTextAlignment="Center"
+            Text="Aceite um ID Verificado para ter mais controle de sua identidade"
+            WidthRequest="290" />
+
+        <Label
+            FontSize="Small"
+            HorizontalTextAlignment="Center"
+            Text="Alguns sites e organizaqöes agora oferecem IDs vertficados. Eles tornam a configuraqäo da conta mais simples e segura, ao mesmo tempo em que oferecem mais visibilidade e controle sobre seus dados pessoais."
+            TextColor="Gray"
+            WidthRequest="290" />
+
+        <Label
+            FontSize="Small"
+            HorizontalTextAlignment="Center"
+            Text="Um site normalmente oferece um ID verificado por meio de urn c0digo QR. Digitalize o c6digo para começar."
+            TextColor="Gray"
+            WidthRequest="290" />
+
+        <Grid WidthRequest="290">
+
+            <Button
+                Padding="20,0,0,0"
+                BackgroundColor="#0376dd"
+                FontAttributes="Bold"
+                FontSize="15"
+                Text="Leia um código QR" />
+
+            <Image
+                Margin="15,0,0,0"
+                HorizontalOptions="Start"
+                Source="codigo_qr.png"
+                WidthRequest="30" />
+        </Grid>
+
+        <Label
+            FontSize="Small"
+            HorizontalTextAlignment="Center"
+            Text="Saiba mais sobre IDs Verificadas"
+            TextColor="Blue"
+            TextDecorations="Underline"
+            WidthRequest="290" />
+
     </VerticalStackLayout>
 </ContentPage>

@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Clone.Microsoft.Authenticator.Views.EnderecosPage"
-             Title="EnderecosPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+<ContentPage
+    x:Class="Clone.Microsoft.Authenticator.Views.EnderecosPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Endereços">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="tools.png" />
+    </ContentPage.ToolbarItems>
+
+    <VerticalStackLayout Margin="10" Spacing="20">
+
+        <Image Margin="0,50,0,0" Source="dotnet_bot.svg" />
+
+        <Label
+            FontSize="Subtitle"
+            HorizontalTextAlignment="Center"
+            Text="Preencher automaticamente senhas e muito mais"
+            WidthRequest="230" />
+
+        <Label
+            FontSize="Small"
+            HorizontalTextAlignment="Center"
+            Text="As senhas e outros dados salvos Authenticator serão armazenados com seguranqa no conta Microsoft e sincronizados em todos os seus dispositivos conectados."
+            TextColor="Gray"
+            WidthRequest="250" />
+
+        <Grid WidthRequest="290">
+
+            <Button
+                Padding="20,0,0,0"
+                BackgroundColor="#0376dd"
+                FontAttributes="Bold"
+                FontSize="10"
+                Text="Entrar com a conta da microsoft" />
+
+            <Image
+                Margin="0,0,200,0"
+                HorizontalOptions="Center"
+                Source="microsoft.png"
+                WidthRequest="30" />
+
+        </Grid>
+
     </VerticalStackLayout>
 </ContentPage>

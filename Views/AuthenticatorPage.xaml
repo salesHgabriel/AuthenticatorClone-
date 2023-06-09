@@ -9,6 +9,8 @@
     BackgroundColor="#eeeeee">
 
 
+
+
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="add.png" />
         <ToolbarItem IconImageSource="search.png" />
