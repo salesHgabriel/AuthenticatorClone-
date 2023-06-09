@@ -5,6 +5,9 @@
 
 ### Android
 
+#### SplashScreeen
+<kbd><img width="250" src="art/splashscreen.png" /></kbd>
+
 #### Tela do authenticator
 <kbd><img width="250" src="art/tela_authenticator.png" /></kbd>
 
