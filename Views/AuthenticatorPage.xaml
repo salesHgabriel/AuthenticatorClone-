@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clone.Microsoft.Authenticator.Views.AuthenticatorPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:Clone.Microsoft.Authenticator.Models"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Title="Authenticator"
+    BackgroundColor="#eeeeee">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="add.png" />
+        <ToolbarItem IconImageSource="search.png" />
+        <ToolbarItem IconImageSource="tools.png" />
+    </ContentPage.ToolbarItems>
+
+
+
+    <VerticalStackLayout Margin="0,10,0,0">
+        <CollectionView x:Name="ListaContasCollectionView" ItemsSource="{Binding ListaContas}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Conta">
+                    <FlexLayout Margin="0,0,0,10" BackgroundColor="White">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <HorizontalStackLayout Spacing="10">
+                                <BoxView
+                                    Margin="0,-10,0,0"
+                                    HeightRequest="90"
+                                    HorizontalOptions="Fill"
+                                    WidthRequest="10"
+                                    Color="#0376dd" />
+
+                                <HorizontalStackLayout Padding="5" Spacing="10">
+
+                                    <toolkit:AvatarView
+                                        Padding="2"
+                                        BackgroundColor="#e9e9e9"
+                                        ImageSource="carteira.png" />
+
+                                    <FlexLayout
+                                        Margin="0"
+                                        AlignItems="Start"
+                                        Direction="Column"
+                                        HeightRequest="40"
+                                        JustifyContent="Start"
+                                        WidthRequest="250">
+
+                                        <VerticalStackLayout FlexLayout.AlignSelf="Start">
+                                            <Label FontSize="Title" Text="{Binding Nome}" />
+                                            <Label FontSize="Caption" Text="{Binding Email}" />
+                                        </VerticalStackLayout>
+                                    </FlexLayout>
+
+                                    <FlexLayout WidthRequest="20">
+                                        <Image
+                                            Source="proximo.png"
+                                            VerticalOptions="Center"
+                                            WidthRequest="20" />
+                                    </FlexLayout>
+
+                                </HorizontalStackLayout>
+
+                            </HorizontalStackLayout>
+
+                        </Grid>
+                    </FlexLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

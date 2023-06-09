@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Clone.Microsoft.Authenticator.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Clone.Microsoft.Authenticator"
+    xmlns:views="clr-namespace:Clone.Microsoft.Authenticator.Views"
+    Shell.BackgroundColor="#0376dd"
+    Shell.FlyoutBehavior="Disabled">
+
+
+    <TabBar>
+        <Tab Title="Authenticator" Icon="botao_home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AuthenticatorPage}" />
+        </Tab>
+
+        <Tab Title="Senhas" Icon="chave_inteligente.png">
+            <ShellContent ContentTemplate="{DataTemplate views:SenhasPage}" />
+        </Tab>
+
+        <Tab Title="Pagamentos" Icon="credit_card.png">
+            <ShellContent ContentTemplate="{DataTemplate views:PagamentosPage}" />
+        </Tab>
+
+        <Tab Title="Endereços" Icon="pointer.png">
+            <ShellContent ContentTemplate="{DataTemplate views:EnderecosPage}" />
+        </Tab>
+
+        <Tab Title="IDs Verificados" Icon="big_id_card.png">
+            <ShellContent ContentTemplate="{DataTemplate views:IDsVerificadosPage}" />
+        </Tab>
+    </TabBar>
+
+
+</Shell>

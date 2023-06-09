@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clone.Microsoft.Authenticator.Views.SenhasPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Senhas">
+    <VerticalStackLayout Spacing="20" VerticalOptions="Center">
+
+        <Image Margin="0,50,0,0" Source="dotnet_bot.svg" />
+
+        <Label FontSize="Title" Text="Preencher automaticamente senhas e muito mais" />
+
+        <Label Text="As senhas e outros dados salvos Authenticator seräo armazenados com seguranqa no conta Microsoft e sincronizados em todos os seus dispositivos conectados." />
+
+        <Button Text="Entrar com a conta da microsoft" />
+    </VerticalStackLayout>
+</ContentPage>
