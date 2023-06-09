@@ -74,10 +74,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Art\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Views\AuthenticatorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
