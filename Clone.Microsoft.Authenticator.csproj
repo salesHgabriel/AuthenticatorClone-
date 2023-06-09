@@ -52,10 +52,15 @@
 	  <None Remove="Resources\Images\add.png" />
 	  <None Remove="Resources\Images\big_id_card.png" />
 	  <None Remove="Resources\Images\botao_home.png" />
+	  <None Remove="Resources\Images\botao_home_selected.png" />
 	  <None Remove="Resources\Images\carteira.png" />
 	  <None Remove="Resources\Images\chave_inteligente.png" />
+	  <None Remove="Resources\Images\chave_inteligente_selected.png" />
 	  <None Remove="Resources\Images\credit_card.png" />
+	  <None Remove="Resources\Images\credit_card_selected.png" />
+	  <None Remove="Resources\Images\microsoft.png" />
 	  <None Remove="Resources\Images\pointer.png" />
+	  <None Remove="Resources\Images\pointer_selected.png" />
 	  <None Remove="Resources\Images\proximo.png" />
 	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Images\tools.png" />

@@ -4,14 +4,40 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Senhas">
-    <VerticalStackLayout Spacing="20" VerticalOptions="Center">
+    <VerticalStackLayout Margin="10" Spacing="20">
 
         <Image Margin="0,50,0,0" Source="dotnet_bot.svg" />
 
-        <Label FontSize="Title" Text="Preencher automaticamente senhas e muito mais" />
+        <Label
+            FontSize="Subtitle"
+            HorizontalTextAlignment="Center"
+            Text="Preencher automaticamente senhas e muito mais"
+            WidthRequest="230" />
 
-        <Label Text="As senhas e outros dados salvos Authenticator seräo armazenados com seguranqa no conta Microsoft e sincronizados em todos os seus dispositivos conectados." />
+        <Label
+            FontSize="Small"
+            HorizontalTextAlignment="Center"
+            Text="As senhas e outros dados salvos Authenticator serão armazenados com seguranqa no conta Microsoft e sincronizados em todos os seus dispositivos conectados."
+            TextColor="Gray"
+            WidthRequest="250" />
 
-        <Button Text="Entrar com a conta da microsoft" />
+        <Grid>
+
+
+            <Button
+                Padding="20,0,0,0"
+                BackgroundColor="#0376dd"
+                FontAttributes="Bold"
+                FontSize="10"
+                Text="Entrar com a conta da microsoft" />
+
+            <Image
+                Margin="0,0,200,0"
+                HorizontalOptions="Center"
+                Source="microsoft.png"
+                WidthRequest="30" />
+
+        </Grid>
+
     </VerticalStackLayout>
 </ContentPage>

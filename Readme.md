@@ -1,8 +1,8 @@
-﻿# Clone do aplicativo do microsoft authenticator
+﻿# .NET MAUI Clone do aplicativo do microsoft authenticator
 
 ## Todo: 
 
-⚠️ Barra de navegação
+## Barra de navegação
 
 # Telas
 	- Authenticator
