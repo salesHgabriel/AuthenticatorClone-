@@ -11,6 +11,18 @@
 #### Tela do authenticator
 <kbd><img width="250" src="art/tela_authenticator.png" /></kbd>
 
+#### Tela de senhas
+<kbd><img width="250" src="art/tela_senhas.png" /></kbd>
+
+#### Tela de pagamentos
+<kbd><img width="250" src="art/tela_pagamentos.png" /></kbd>
+
+#### Tela de enderecos
+<kbd><img width="250" src="art/tela_pagamentos.png" /></kbd>
+
+#### Tela de ids verificados
+<kbd><img width="250" src="art/tela_idsverificados.png" /></kbd>
+
 
 
 ### iOS
