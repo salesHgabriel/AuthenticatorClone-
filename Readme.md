@@ -18,7 +18,7 @@
 <kbd><img width="250" src="art/tela_pagamentos.png" /></kbd>
 
 #### Tela de enderecos
-<kbd><img width="250" src="art/tela_pagamentos.png" /></kbd>
+<kbd><img width="250" src="art/tela_enderecos.png" /></kbd>
 
 #### Tela de ids verificados
 <kbd><img width="250" src="art/tela_idsverificados.png" /></kbd>
