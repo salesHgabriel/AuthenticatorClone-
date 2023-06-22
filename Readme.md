@@ -11,6 +11,9 @@
 #### Tela do authenticator
 <kbd><img width="250" src="art/tela_authenticator.png" /></kbd>
 
+#### Tela do nova conta
+<kbd><img width="250" src="art/tela_nova_conta.png" /></kbd>
+
 #### Tela de senhas
 <kbd><img width="250" src="art/tela_senhas.png" /></kbd>
 
