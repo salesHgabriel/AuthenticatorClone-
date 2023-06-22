@@ -18,4 +18,9 @@ public partial class AuthenticatorPage : ContentPage
 		BindingContext = ListaContas;
 		ListaContasCollectionView.ItemsSource = ListaContas;
 	}
+
+    private async void ToolbarItem_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(NovaContaPage));
+    }
 }

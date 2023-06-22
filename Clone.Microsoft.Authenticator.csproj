@@ -60,6 +60,7 @@
 	  <None Remove="Resources\Images\codigo_qr.png" />
 	  <None Remove="Resources\Images\credit_card.png" />
 	  <None Remove="Resources\Images\credit_card_selected.png" />
+	  <None Remove="Resources\Images\informacao.png" />
 	  <None Remove="Resources\Images\microsoft.png" />
 	  <None Remove="Resources\Images\pointer.png" />
 	  <None Remove="Resources\Images\pointer_selected.png" />
@@ -86,6 +87,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\IDsVerificadosPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NovaContaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\PagamentosPage.xaml">

@@ -12,20 +12,20 @@
 
 
 
-    <TabBar x:Name="tabBarApp" PropertyChanged="tabBarApp_PropertyChanged">
-        <Tab Title="Authenticator" Icon="botao_home.png">
+    <TabBar x:Name="tabBarApp">
+        <Tab Title="Authenticator" Icon="botao_home_selected.png">
             <ShellContent ContentTemplate="{DataTemplate views:AuthenticatorPage}" />
         </Tab>
 
-        <Tab Title="Senhas" Icon="chave_inteligente.png">
+        <Tab Title="Senhas" Icon="chave_inteligente_selected.png">
             <ShellContent ContentTemplate="{DataTemplate views:SenhasPage}" />
         </Tab>
 
-        <Tab Title="Pagamentos" Icon="credit_card.png">
+        <Tab Title="Pagamentos" Icon="credit_card_selected.png">
             <ShellContent ContentTemplate="{DataTemplate views:PagamentosPage}" />
         </Tab>
 
-        <Tab Title="Endereços" Icon="pointer.png">
+        <Tab Title="Endereços" Icon="pointer_selected.png">
             <ShellContent ContentTemplate="{DataTemplate views:EnderecosPage}" />
         </Tab>
 

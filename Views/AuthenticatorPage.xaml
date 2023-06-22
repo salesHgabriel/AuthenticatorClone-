@@ -8,16 +8,11 @@
     Title="Authenticator"
     BackgroundColor="#eeeeee">
 
-
-
-
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="add.png" />
+        <ToolbarItem Clicked="ToolbarItem_Clicked" IconImageSource="add.png" />
         <ToolbarItem IconImageSource="search.png" />
         <ToolbarItem IconImageSource="tools.png" />
     </ContentPage.ToolbarItems>
-
-
 
     <VerticalStackLayout Margin="0,10,0,0">
         <CollectionView x:Name="ListaContasCollectionView" ItemsSource="{Binding ListaContas}">
