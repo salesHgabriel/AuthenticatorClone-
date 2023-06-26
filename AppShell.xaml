@@ -13,19 +13,19 @@
 
 
     <TabBar x:Name="tabBarApp">
-        <Tab Title="Authenticator" Icon="botao_home_selected.png">
+        <Tab Title="Authenticator" Icon="botao_home.png">
             <ShellContent ContentTemplate="{DataTemplate views:AuthenticatorPage}" />
         </Tab>
 
-        <Tab Title="Senhas" Icon="chave_inteligente_selected.png">
+        <Tab Title="Senhas" Icon="chave_inteligente.png">
             <ShellContent ContentTemplate="{DataTemplate views:SenhasPage}" />
         </Tab>
 
-        <Tab Title="Pagamentos" Icon="credit_card_selected.png">
+        <Tab Title="Pagamentos" Icon="credit_card.png">
             <ShellContent ContentTemplate="{DataTemplate views:PagamentosPage}" />
         </Tab>
 
-        <Tab Title="Endereços" Icon="pointer_selected.png">
+        <Tab Title="Endereços" Icon="pointer.png">
             <ShellContent ContentTemplate="{DataTemplate views:EnderecosPage}" />
         </Tab>
 
