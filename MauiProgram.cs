@@ -1,5 +1,4 @@
-﻿using Clone.Microsoft.Authenticator.Platforms.Android;
-using CommunityToolkit.Maui;
+﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
 namespace Clone.Microsoft.Authenticator;
@@ -20,7 +19,7 @@ public static class MauiProgram
             .ConfigureMauiHandlers(handlers =>
             {
 #if ANDROID
-                handlers.AddHandler<Shell, CustomShellHandler>();
+                handlers.AddHandler<Shell, Clone.Microsoft.Authenticator.Platforms.Android.CustomShellHandler>();
 #endif
             });
 
